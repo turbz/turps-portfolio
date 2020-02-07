@@ -1,0 +1,55 @@
+.main-nav {
+  position: absolute;
+  top: 0;
+  left: 4%;
+  display: flex;
+  justify-content: space-between;
+  width: 92%;
+  margin: 1.4em auto;
+}
+
+.main-nav figure img {
+  height: 28px;
+}
+
+.main-nav .social {
+  margin: auto 0;
+}
+
+.main-nav .social a {
+  margin-left: 0.5em;
+}
+
+.main-nav .social img {
+  height: 18px;
+}
+
+.main-nav .menu {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.main-nav .menu > a {
+  font-size: 1.4rem;
+  font-family: "Lobster", sans-serif;
+  display: inline-block;
+  width: 33.33%;
+  height: 60px;
+  padding: 0.8em 0;
+}
+
+.main-nav .menu > a:last-of-type {
+  color: white;
+  background-color: black;
+}
+
+.main-nav .menu ul {
+  position: absolute;
+  top: -60px;
+  /* bottom: 60px; */
+  background-color: black;
+}
