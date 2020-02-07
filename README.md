@@ -1,6 +1,6 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-![Destop image](./publc/turbs.png)
+![Destop image](./public/turbs.png)
 
 ## Available Scripts
 
